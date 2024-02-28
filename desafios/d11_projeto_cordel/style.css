@@ -62,8 +62,6 @@ section {
     line-height: 2em;
     font-family: var(--fonte-paragrafos);
     font-size: 3.5vw;
-
-    background-attachment: fixed;
 }
 
 section > p {
@@ -74,6 +72,9 @@ section > p {
 
 section.imagem {
     border: 2px solid black;
+
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
@@ -86,7 +87,6 @@ section.imagem > p {
 section#img01 {
     background-image: url('imagens/imagem01.png');
     background-position: right center;
-    width: 100%;
 }
 
 section#img02 {
